@@ -1,11 +1,11 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [228] using StatReload
-INFO:     Started server process [230]
+INFO:     Started reloader process [275] using StatReload
+INFO:     Started server process [277]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:33754 - "OPTIONS /api/waitlist HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33742 - "POST /api/waitlist HTTP/1.1" 500 Internal Server Error
-INFO:     172.20.0.1:47968 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:33742 - "GET /api/waitlist HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33742 - "GET /api/waitlist HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45866 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:45882 - "GET /api/waitlist HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45888 - "GET /api/waitlist HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45882 - "GET /api/waitlist HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45888 - "GET /api/waitlist HTTP/1.1" 200 OK
