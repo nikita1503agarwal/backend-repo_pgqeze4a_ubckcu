@@ -41,8 +41,10 @@ class Product(BaseModel):
 # Add your own schemas here:
 # --------------------------------------------------
 
-# Note: The Flames database viewer will automatically:
-# 1. Read these schemas from GET /schema endpoint
-# 2. Use them for document validation when creating/editing
-# 3. Handle all database operations (CRUD) directly
-# 4. You don't need to create any database endpoints!
+class Waitlist(BaseModel):
+    """
+    Waitlist collection schema
+    Collection name: "waitlist"
+    """
+    address: str = Field(..., description="Solana wallet address (base58)")
+    source: Optional[str] = Field(None, description="Where the signup came from (hero, navbar, etc.)")
